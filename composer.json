@@ -1,0 +1,14 @@
+{
+	"name": "bitrix24/crest",
+	"type": "library",
+	"description": "@bitrix/crest — небольшой PHPSDK для использования REST API Битрикс24 в локальных, тиражных приложениях или через вебхуки",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bitrix24\\Crest\\": "src/"
+		}
+	}
+}
